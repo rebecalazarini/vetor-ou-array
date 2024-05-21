@@ -1,0 +1,14 @@
+//Coloque os números 1, 2, 3, ..., 10 em um array de 10 elementos, em seguida exiba eles no formato 'Elemento 1', 'Elemento 2', ..., 'Elemento 10'.
+#include <iostream>
+using namespace std;
+
+int main()
+{
+   int num[10], cont;
+
+   for(cont=0 ; cont<10 ; cont++)
+       num[cont] = cont+1;
+
+   for(cont=0 ; cont<10 ; cont++)
+       cout << "Elemento " << cont+1 << ": " << num[cont] << endl;
+}
