@@ -1,0 +1,16 @@
+//Crie um array de 101 elementos. Em cada elemento do array, armazene o valor do dobro do índice. Ou seja, a variável num[x] deve ter armazenado o valor 2x. Depois, exibe a lista dos 100 números primeiros números pares.
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    const int ARRAY_SIZE = 101;
+    int num[ARRAY_SIZE], cont;
+
+    for(cont=0 ; cont<ARRAY_SIZE ; cont++)
+        num[cont] = 2*cont;
+
+    for(cont=1 ; cont<ARRAY_SIZE ; cont++)
+        cout<<"Dobro de "<<cont<<": "<<num[cont]<<endl;
+
+}
