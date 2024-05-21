@@ -1,0 +1,24 @@
+//Faça um programa que leia 5 valores inteiros, armazeno-os em um vetor, calcule e apresente a soma destes valores.
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int valores[5], sum=0;
+    int cont;
+    int total;
+
+    for(cont=0 ; cont<5 ; cont++){
+        cout<<"Digite um numero"<<cont+1<<": ";
+        cin >> valores[cont];
+        sum += valores[cont];
+    }
+
+    for(cont=0 ; cont<5 ; cont++)
+        cout<<"Nota "<<cont+1<<": "<<valores[cont]<<endl;
+
+    total = sum + valores[5];
+
+    cout<<"Total: "<<sum<<endl;
+
+}
