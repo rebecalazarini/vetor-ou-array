@@ -1,0 +1,22 @@
+//Faça um programa que leia 10 valores reis e os apresente na ordem inversa de entrada.
+#include <iostream>
+using namespace std;
+
+int main() {
+    int valores[10];
+    int n; 
+
+    
+    cout << "Digite 10 numeros:\n";
+    for (int n = 0; n < 10; ++n) {
+        cout << "Valor " << n + 1 << ": ";
+        cin >> valores[n];
+    }
+
+    cout << "Valores na ordem inversa de entrada:\n";
+    for (int n = 9; n >= 0; --n) {
+        cout << valores[n] << endl;
+    }
+
+    return 0;
+}
