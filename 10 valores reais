@@ -1,4 +1,4 @@
-//Faça um programa que leia 10 valores reis e os apresente na ordem inversa de entrada.
+//Faça um programa que leia 10 valores reais e os apresente na ordem inversa de entrada.
 #include <iostream>
 using namespace std;
 
